@@ -8,42 +8,82 @@ https://codepen.io/matt-sexton/pen/VwazoPo?editors=1100
 Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
 
     1. What is Semantic HTML? 
-    2. What is HTML used for? 
+    Clearly tells something about the content. Names, Classes, ID's
+    2. What is HTML used for?
+    Add's all the real content to a page. defines and catagorizes it 
     3. What is an attribute and where do we put it? 
+    attributes can add aditional information, links and should always be in the beginning of the tag
     4. What is the h1 tag used for? How many times should I use it on a page?
+    It's the main header. Use only once
     5. Name two tags that have required attributes
-    6. What do we put in the head of our HTML document? 
+    img, href
+    6. What do we put in the head of our HTML document?
+    h1 and possibly nav 
     7. What is an id? 
+    unique identifier that can only refer to an individual element
     8. What elements can I add an id to? 
+    h1, section, id, div...
     9. How many times can I use the same id on a page? 
+    one
     10. What is a class? 
+    like an id, but can be used multiple times accross the page
     11. What elements can I add a class to? 
+    span, h1,h2, div...
     12. How many times can I use the same class on a page? 
+    as many as you want
     13. How do I get my link to open in a new tab?
+    target="_blank"
     14. What is the alt attribute in the image tag used for? 
+    provides a description of the image
     15. How do I reference an id?
+    #id{}
     16. What is the difference between a section and a div
-    17. What is CSS used for? 
+    section is a larger part of the page. can be multiple div inside
+    17. What is CSS used for?
+    making the page look pretty. formatting, color 
     18. How to we select an element? Example - every h2 on the page
+    h2 {}
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    classes used multiple times, id only one time. an id to mark the start of a specific topic. all h1-h6 could have a single class
     20. How do we select classes in CSS?
+    .classname {}
     21. How do we select a p element with a single class of “human””?
+    .human p{}
     22. What is a parent child selector? When would this be useful? 
-    23. How do you select all links within a div with the class of sidebar?
+    specifies to only change something to an element (child) when it is inside another element (parent)
+***23. How do you select all links within a div with the class of sidebar?
+    div > 
     24. What is a pseudo selector?
+    can be used anywhere in a document to either add content or apply the same affects as in hover
     25. What do we use the change the spacing between lines?
+    line-height: 123;
     26. What do we use to change the spacing between letters?
+    letter-spacing: 123;
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase,lowercase,capitalize;
     28. How do I add a 1px border around my div that is dotted and black?
+    .div{
+        border: 1px dotted black;
+    }
     29. How do I select everything on the page? 
+    * {}
     30. How do I write a comment in CSS?
-    31. How do I find out what file I am in, when I am using the command line? 
+    /* asdfasdfasdf */
+***31. How do I find out what file I am in, when I am using the command line? 
+    pwd
     32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm thisfile.txt perm delete and doesn't ask for permission
     34. Why should I use version control? 
+    
     35. How often should I commit to github?
+    after changing/adding a specific part. Added functionality to A. Tweaked functionality to B
     36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+    git push -u origin matt-sexton
+    37. Walk me through Lambda's git flow.
+     
+
 
 Stretch Questions
 
